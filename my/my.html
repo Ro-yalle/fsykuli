@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewsport" content="width=device-width", intial-scale="1.0">
+        <title>My profile</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="images/logo.png"class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img src="images/gg.jpg"class="user-pic" onclick="toggleMenu()">
+            </nav>
+                
+                        <div class="uer-info" id="subMenu">
+                            <div class="t">
+                            <img src="images/home.png" alt="Home" class="kk">
+                        </div>
+                            <img src="images/contact.png" alt="contact" class="uu">
+                            <div>
+                            <a href="#" ><img src="images/sign.jpg" alt="Sign in" class="ii"></a>
+                        </div>
+                        <div>
+                            <img src="images/logout.png" alt="Logout" class="oo">
+                        </div>
+                        </div>
+                
+            
+        </div>
+<div class="new">
+
+</div>
+        <script>
+let subMenu = document.getElementById("subMenu");
+
+function toggleMenu(){
+    subMenu.classList.toggle("open");
+}
+
+        </script>
+    </body>
+</html>
